@@ -56,8 +56,8 @@ public class App_Bruno_1889314_Exercicio20 {
         }
 
         mediaAlunos = soma / qtdAlunos;
-        System.out.printf("Média das notas: %.1f %n", mediaAlunos);
-        System.out.printf("Melhor nota: %.1f %n", maiorNota);
-        System.out.printf("Pior nota: %.1f %n ", menorNota);
+        System.out.println("Média das notas: " + mediaAlunos);
+        System.out.println("Melhor nota: " + maiorNota);
+        System.out.println("Pior nota: " + menorNota);
     }
 }
