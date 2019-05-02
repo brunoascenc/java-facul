@@ -35,7 +35,7 @@ public class App_1889314_Bruno_Exercicio6 {
                 soma = numero + numero;
             }
         }
-        
+
         System.out.println("Soma dos numeros primos: " + soma);
     }
 

@@ -33,7 +33,7 @@ public class App_1889314_Bruno_Exercicio4 {
 
         area = base * altura / 2;
 
-        System.out.printf("Area do retangulo é: " + area );
+        System.out.printf("Area do retangulo é: " + area);
     }
 
 }

@@ -1,16 +1,17 @@
-
-import java.util.Scanner;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package app_bruno_1889314_exercicio10;
+
+import java.util.Scanner;
+
 /**
  *
  * @author BRUNO
  */
-public class App_1889314_Bruno_Exercicio2 {
+public class App_1889314_Bruno_Exercicio10 {
 
     /**
      * @param args the command line arguments
@@ -21,19 +22,14 @@ public class App_1889314_Bruno_Exercicio2 {
         int soma = 0;
         int i;
 
-        Scanner in = new Scanner(System.in);
+        Scanner valor = new Scanner(System.in);
 
-        for (i = 1; i <= 4; i++) {
-            System.out.println("Digite o " + i + " numero: ");
-            numero = in.nextInt();
+        for (i = 1; i <= 10; i++) {
+            System.out.println("Digite um numero: ");
+            numero = valor.nextInt();
+            soma = soma + numero;
 
-            if (numero % 2 == 0) {
-                soma = soma + numero;
-            }
         }
-
-        System.out.println("Soma dos numeros pares: " + soma);
-
+        System.out.println("Soma total dos numeros: " + soma);
     }
-
 }
